@@ -1,0 +1,15 @@
+{
+  "name": "mathpoint",
+  "displayName": "MathPoint",
+  "version": "1.0.0",
+  "description": "Put TeX-typeset equations, TikZ/pgfplots figures, and tables into the PowerPoint or Word file you have open, just by asking Claude. No TeX installation needed.",
+  "author": {
+    "name": "Fermion Inc.",
+    "email": "contact@fermion.company",
+    "url": "https://fermion.company/"
+  },
+  "homepage": "https://tex64.com/mathpoint",
+  "repository": "https://github.com/Fermion-company/mathpoint-plugin",
+  "license": "MIT",
+  "keywords": ["powerpoint", "word", "latex", "math", "equations", "tikz", "office", "add-in"]
+}

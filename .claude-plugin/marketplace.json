@@ -1,0 +1,14 @@
+{
+  "name": "mathpoint",
+  "owner": {
+    "name": "Fermion Inc.",
+    "email": "contact@fermion.company"
+  },
+  "plugins": [
+    {
+      "name": "mathpoint",
+      "source": "./",
+      "description": "TeX math, figures, and tables in PowerPoint and Word from Claude"
+    }
+  ]
+}

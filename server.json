@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.Fermion-company/mathpoint",
+  "title": "MathPoint",
+  "description": "TeX math, TikZ figures, and tables in the PowerPoint or Word file you have open, from chat.",
+  "version": "1.0.0",
+  "websiteUrl": "https://tex64.com/mathpoint",
+  "repository": {
+    "url": "https://github.com/Fermion-company/mathpoint-plugin",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tex64.com/mathpoint/mcp"
+    }
+  ]
+}

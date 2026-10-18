@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mathpoint": {
+      "type": "http",
+      "url": "https://mcp.tex64.com/mathpoint/mcp"
+    }
+  }
+}

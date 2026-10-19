@@ -1,9 +1,10 @@
-# MathPoint — TeX math in PowerPoint and Word from Claude or ChatGPT
+# MathPoint — LaTeX equations in PowerPoint and Word, no TeX install
 
-MathPoint is an add-in for Microsoft PowerPoint and Word. Ask Claude or ChatGPT
-in chat, and equations, TikZ / pgfplots figures, and tables typeset with TeX
-appear in the slide deck or document you have open. Typesetting runs on the
-MathPoint server with LuaLaTeX, so you do not need TeX installed.
+MathPoint is an add-in for Microsoft PowerPoint and Word that puts LaTeX
+equations, TikZ / pgfplots figures, and tables typeset with real TeX into the
+slide deck or document you have open. Type LaTeX in its task pane, or ask Claude
+or ChatGPT in chat. Typesetting runs on the MathPoint server with LuaLaTeX, so
+you do not need TeX installed, and it works in PowerPoint for the web too.
 
 ![A PowerPoint slide with a TeX-typeset 3D plot of a bivariate Gaussian and its density formula, next to the MathPoint task pane listing what Claude did](assets/screenshot.png)
 
@@ -46,6 +47,26 @@ Fermion Inc.
    | Codex | `codex mcp add mathpoint --url https://mcp.tex64.com/mathpoint/mcp` |
 
 4. **Ask.** Keep the task pane open and ask in chat.
+
+## Use it without an AI
+
+Like IguanaTex, MathPoint works on its own: open the task pane, type LaTeX,
+check the live preview, and click **Insert**. TikZ code and tables copied from
+Excel go in the same way. The LaTeX source is stored with the shape, so you can
+open it again and re-typeset.
+
+## How it compares
+
+| | Local TeX | Rendering | Figures and tables | Word |
+|---|---|---|---|---|
+| PowerPoint equation editor (LaTeX input) | Not needed | Office math | No | Yes |
+| IguanaTex | Required | TeX | If you write them in TeX | No |
+| MathType (paid) | Not needed | MathType | No | Yes |
+| **MathPoint** | Not needed | TeX (LuaLaTeX) | TikZ, pgfplots, tabularray | Yes |
+
+IguanaTex is a VBA add-in, so it does not run in PowerPoint for the web; MathPoint does.
+
+A longer comparison: [How to use LaTeX equations in PowerPoint: five ways compared](https://tex64.com/learn/latex-equations-in-powerpoint).
 
 ## Example prompts
 
@@ -92,9 +113,10 @@ Full policy: <https://mcp.tex64.com/mathpoint/privacy>. In short:
 
 ## 日本語
 
-MathPoint は PowerPoint と Word のアドインです。Claude や ChatGPT にチャットで
-頼むと、開いているスライドや文書に TeX で組んだ数式・図・表が入ります。組版は
-サーバーで行うので、TeX のインストールは要りません。
+MathPoint は PowerPoint と Word に LaTeX の数式・TikZ の図・表を入れるアドインです。
+作業ウィンドウに LaTeX を打つか、Claude や ChatGPT にチャットで頼むと、TeX で組んだ
+結果が開いているスライドや文書に入ります。組版はサーバーで行うので、TeX の
+インストールは要りません（IguanaTex と違い、Web 版の PowerPoint でも動きます）。
 
 1. Mac はターミナルで `curl -fsSL https://mcp.tex64.com/mathpoint/install | sh`、
    Windows は PowerShell で `irm https://mcp.tex64.com/mathpoint/install.ps1 | iex` を実行します。

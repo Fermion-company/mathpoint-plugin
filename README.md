@@ -98,7 +98,10 @@ Edits appear in the open file right away and can be undone with Undo.
 
 The free plan covers 30 typeset equations, figures, or tables a month
 (re-typesetting the same item does not count again). A paid plan without a
-monthly limit (600 JPY a month, tax included) is on the way.
+monthly limit costs 600 JPY a month, tax included. Check subscription availability,
+your current plan, and cancellation at the [MathPoint account page](https://mcp.tex64.com/mathpoint/account?lang=en).
+When subscriptions are available, stop renewal in **Manage or cancel**; access
+continues until the end of the paid billing period.
 
 ## Privacy
 
@@ -123,7 +126,7 @@ MathPoint は PowerPoint と Word に LaTeX の数式・TikZ の図・表を入�
 2. PowerPoint を開き直し、ホーム → アドイン → MathPoint を開いて Google でログインします。
 3. 作業ウィンドウから Claude か ChatGPT をつなぎ、「スライド 2 に二次方程式の解の公式を入れて」のように頼みます。
 
-無料プランは月 30 件までです。詳しくは <https://tex64.com/ja/mathpoint> をご覧ください。
+無料プランは月30件まで、有料プランは月600円（税込）です。申し込みの受付状況・現在のプランは[アカウント](https://mcp.tex64.com/mathpoint/account?lang=ja)で確認できます。解約は「契約の管理・解約」から次回更新を停止し、支払済み期間の終了まで利用できます。詳しくは <https://tex64.com/ja/mathpoint#pricing> をご覧ください。
 
 ## Support
 
